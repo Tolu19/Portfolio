@@ -13,22 +13,24 @@ header{
     top: 0;
     z-index: 1000;
     }
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    margin: 2rem;
+    
     color:white
 }
 .logo{
     font-size: 1.5rem;
     font-weight: bold;
+    margin-left: 2rem;
 }
 .nav-links{
     list-style: none;
     display: flex;
     gap: 1.5rem;
+    margin-right: 2rem;
 }
 .nav-links a{
     text-decoration: none;
